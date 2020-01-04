@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Entry">
+      <UniqueIdentifier>{2cd1026b-3614-4088-bc84-da03b6b5dd57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Director">
+      <UniqueIdentifier>{f58dc38f-19f3-4594-9c51-158d500635a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{b8741060-3c17-49f4-8d1d-a1d48235a434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryViewer">
+      <UniqueIdentifier>{4a0c09b9-382f-4dd5-a39f-d35dfe0e33eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{a05c30dd-8537-460c-9ea1-de2153fcdc1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D9">
+      <UniqueIdentifier>{e4abe138-bc5e-4a7e-9c82-d0671fcb8e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{834654fc-cc65-41fe-9f6a-56b5432cd30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icon">
+      <UniqueIdentifier>{a83dc012-89cc-408c-bebe-b306b266edf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{ecc3ee99-0cda-44e1-a511-bad88b355f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui\ImguiLib">
+      <UniqueIdentifier>{06a1711b-8a70-4a26-9f61-f940935b2aa1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>Director</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryViewer.cpp">
+      <Filter>MemoryViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D9.cpp">
+      <Filter>Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInputController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ImguiManager.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Director.h">
+      <Filter>Director</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryViewer.h">
+      <Filter>MemoryViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D9.h">
+      <Filter>Direct3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInputController.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualController.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Icon.h">
+      <Filter>Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="ImguiManager.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Imgui\ImguiLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon.ico">
+      <Filter>Icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Icon.rc">
+      <Filter>Icon</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
